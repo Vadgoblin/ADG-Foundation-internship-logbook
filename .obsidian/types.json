@@ -6,6 +6,7 @@
     "expected_hours": "number",
     "actual_hours": "number",
     "date_started": "date",
-    "date_completed": "date"
+    "date_completed": "date",
+    "end_date": "date"
   }
 }
