@@ -1,0 +1,11 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "expected_hours": "number",
+    "actual_hours": "number",
+    "date_started": "date",
+    "date_completed": "date"
+  }
+}
