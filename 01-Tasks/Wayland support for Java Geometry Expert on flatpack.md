@@ -13,6 +13,10 @@ end_date:
  - [ ] ...
 
 Execution Log:
-- `2026.06.02.` `5.2h` Reading `flatpak` documentation.
-- `2026.06.03.` `2.3h` Reading `flatpak` documentation.
-- `2026.06.03.` `0.5h` Build current version of Java Geometry Expert.
+
+### 2026.06.03.
+- **2.3h** Reading `flatpak` documentation
+- **0.5h** Build current version of Java Geometry Expert.
+	- Didn't work under sway wm with xwayland.
+### 2026.06.02.
+* **5.2h** - Reading flatpak documentation
