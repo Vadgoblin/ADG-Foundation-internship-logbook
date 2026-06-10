@@ -15,12 +15,17 @@ end_date:
 Execution Log:
 
 ### 2026.06.10.
-- **0.7h** Trying to pump jdk version.
+- **0.7h** Trying to pump jdk version in flatpak.
+- **2.5h** Get the source to work on wayland natively.
+	- Wayland works using command `./gradlew run` with  `JetBrains`' java runtime and `-Dawt.toolkit.name=WLToolkit`, but its buggy: (under sway wm) it renders at incorrect resolution until resize and `exit` hangs
+	- having difficulties reproducing successful `./gradlew  --no-daemon  installDist`
+	- `./gradlew run` doesnt work anymore with `JetBrains`' java runtime, i dont know why
 
 ### 2026.06.03.
 - **2.3h** Reading `flatpak` documentation
 - **0.5h** Build current version of Java Geometry Expert.
 	- Windows resize doesnt work properly under sway/xwayland.
-- **1.0h** Trying to pump jdk version.
+- **1.0h** Trying to pump jdk version in flatpak.
+
 ### 2026.06.02.
 * **5.2h** - Reading flatpak documentation
