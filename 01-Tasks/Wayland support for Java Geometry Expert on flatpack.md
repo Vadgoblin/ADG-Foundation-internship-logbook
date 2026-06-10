@@ -10,7 +10,7 @@ end_date:
  - [x] Read `flatpack` documentation.
  - [x] Create a `Hello world` `flatpack` package.
  - [ ] Read `flathub` documentation.
- - [ ] ...
+ - [ ] Update flatpak yaml.
 
 Execution Log:
 
@@ -20,6 +20,10 @@ Execution Log:
 	- Wayland works using command `./gradlew run` with  `JetBrains`' java runtime and `-Dawt.toolkit.name=WLToolkit`, but its buggy: (under sway wm) it renders at incorrect resolution until resize and `exit` hangs
 	- having difficulties reproducing successful `./gradlew  --no-daemon  installDist`
 	- `./gradlew run` doesnt work anymore with `JetBrains`' java runtime, i dont know why
+- **1.8h** Update flatpak yaml so app can run with native wayland
+	- Flatpak building takes ages
+	- Run out of space on my machine
+	- Managed to get it to work with wayland but it doesnt work with x11
 
 ### 2026.06.03.
 - **2.3h** Reading `flatpak` documentation
