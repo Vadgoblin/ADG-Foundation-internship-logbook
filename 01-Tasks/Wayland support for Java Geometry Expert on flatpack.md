@@ -14,6 +14,13 @@ end_date:
 
 Execution Log:
 
+### 2026.06.12.
+- **1.0h** Test it and fix x11 fallback. 
+- **0.3h** Trying other java based flatpak packaged programs to see how they behave on wayland and check their flatpak manifest.
+	- jetbrains' idea has the same 'window size being ignored and rendered at incorrect resolution until application becomes a floating window in sway wm' so its a problem with the java's wayland support and not with JGE.
+- **0.3h** Build and run flatpak on a different machine (fedora, kde, x86-64)
+	- doesnt have the 'window size being ignored...' issue under kde
+- **0.7h** Setting up arm64 environment for testing arm support.
 ### 2026.06.10.
 - **0.7h** Trying to pump jdk version in flatpak.
 - **2.5h** Get the source to work on wayland natively.
