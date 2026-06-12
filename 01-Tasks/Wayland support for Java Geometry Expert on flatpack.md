@@ -10,7 +10,7 @@ end_date:
  - [x] Read `flatpack` documentation.
  - [x] Create a `Hello world` `flatpack` package.
  - [ ] Read `flathub` documentation.
- - [ ] Update flatpak yaml.
+ - [x] Update flatpak yaml.
 
 Execution Log:
 
@@ -20,7 +20,10 @@ Execution Log:
 	- jetbrains' idea has the same 'window size being ignored and rendered at incorrect resolution until application becomes a floating window in sway wm' so its a problem with the java's wayland support and not with JGE.
 - **0.3h** Build and run flatpak on a different machine (fedora, kde, x86-64)
 	- doesnt have the 'window size being ignored...' issue under kde
-- **0.7h** Setting up arm64 environment for testing arm support.
+- **0.7h** Set up arm64 environment for testing arm support.
+- **0.4h** Update manifest with arm64 support and test it on a raspberry pi.
+- **0.6h** [[JGE flatpak size optimalization]]
+- **0.7h** Find only needed java libraries with `jdeps`, clean up manifest
 ### 2026.06.10.
 - **0.7h** Trying to pump jdk version in flatpak.
 - **2.5h** Get the source to work on wayland natively.
