@@ -2,18 +2,20 @@
 type: "[[Task]]"
 status: "#task/active"
 expected_hours: 16
-actual_hours: 0
-start_date: 2026-05-28
-end_date:
+actual_hours: 18.8
+start_date: 2026-06-02
+end_date: 2026-06-14
 ---
 **Objectives:**
  - [x] Read `flatpack` documentation.
  - [x] Create a `Hello world` `flatpack` package.
- - [ ] Read `flathub` documentation.
+ - [x] Read `flathub` documentation.
  - [x] Update flatpak yaml.
 
 Execution Log:
 
+### 2026.06.13.
+- **0.8h** Read flathub documentation
 ### 2026.06.12.
 - **1.0h** Test it and fix x11 fallback. 
 - **0.3h** Trying other java based flatpak packaged programs to see how they behave on wayland and check their flatpak manifest.
