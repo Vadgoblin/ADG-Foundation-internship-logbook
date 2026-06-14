@@ -1,5 +1,6 @@
 {
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "99-System/Attachments",
-  "newLinkFormat": "shortest"
+  "newLinkFormat": "absolute",
+  "useMarkdownLinks": true
 }
