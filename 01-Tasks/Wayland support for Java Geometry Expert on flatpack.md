@@ -24,7 +24,7 @@ Execution Log:
 	- doesnt have the 'window size being ignored...' issue under kde
 - **0.7h** Set up arm64 environment for testing arm support.
 - **0.4h** Update manifest with arm64 support and test it on a raspberry pi.
-- **0.6h** [[JGE flatpak size optimalization]]
+- **0.6h** [JGE flatpak size optimalization](/02-Docs/JGE\ flatpak\ size\ optimalization.md)
 - **0.7h** Find only needed java libraries with `jdeps`, clean up manifest
 ### 2026.06.10.
 - **0.7h** Trying to pump jdk version in flatpak.
