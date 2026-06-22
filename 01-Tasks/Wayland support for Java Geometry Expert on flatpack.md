@@ -1,6 +1,5 @@
 ---
 type: "[[Task]]"
-status: "#task/active"
 expected_hours: 16
 actual_hours: 18.8
 start_date: 2026-06-02
