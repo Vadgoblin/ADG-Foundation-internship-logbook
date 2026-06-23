@@ -28,6 +28,7 @@ Execution log:
 
 ### 2026.06.23.
 - **1.4h** - Trying to find required JRE modules for stripping.
+- **1.0h** - Todo
 
 
 ## Random notes:
