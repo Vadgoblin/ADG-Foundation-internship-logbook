@@ -6,7 +6,7 @@ start_date: 2026-06-22
 end_date:
 ---
 **Objectives:**
-- [ ] Download manifest, build and run it
+- [x] Download manifest, build and run it
 
 
 
@@ -22,3 +22,19 @@ Execution log:
 	- It fails on arm64/rasberrypios
 	- raspberry pi runs out of disk storage
 	- having trouble building flatpak due to raspberry pi os (apt) shipping old package verions
+- **1.0h** - Can't reproduce building error. It might be invalid cache.
+- **0.3**h - Trying to figure out the source of mouse icon glitch
+- **1.0h** - Trying to build geogebra from source for figuring out what java deps is has from jre and what is safe to strip out.
+
+### 2026.06.23.
+- **1.4h** - Trying to find required JRE modules for stripping.
+
+
+## Random notes:
+### Flatpak bundle size:
+old manifest: 107.7
+new with stripped jbrsdlk (missing deps): 100.1
+new with jbr: 164
+
+### Mouse icon glitch:
+![](99-System/Attachments/Pasted%20image%2020260622212541.png)
