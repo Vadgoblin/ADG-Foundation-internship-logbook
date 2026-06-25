@@ -7,6 +7,7 @@ end_date:
 ---
 **Objectives:**
 - [x] Download manifest, build and run it
+- [ ] Update manifest 
 
 
 
@@ -28,9 +29,11 @@ Execution log:
 
 ### 2026.06.23.
 - **1.4h** - Trying to find required JRE modules for stripping.
-- **1.0h** - Todo
+- **1.3h** - Build with normal (non stripped) JDK and test it
+	- `3D graphic` doesn't work under wayland
 
 
+[3d error stack trace](02-Docs/Geogebra%20discovery%203d%20error%20stack%20trace.md)
 ## Random notes:
 ### Flatpak bundle size:
 old manifest: 107.7
