@@ -32,6 +32,10 @@ Execution log:
 - **1.3h** - Build with normal (non stripped) JDK and test it
 	- `3D graphic` doesn't work under wayland
 
+### 2026.06.25.
+- **1.4h** - Trying to build it locally, and finding the reason for 3d crash
+	- can't get it to build
+	- im even getting `Could not set process working directory to '...': could not setcwd() (errno 2: No such file or directory)` on an existing directory
 
 [3d error stack trace](02-Docs/Geogebra%20discovery%203d%20error%20stack%20trace.md)
 ## Random notes:

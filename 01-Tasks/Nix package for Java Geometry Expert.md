@@ -15,4 +15,5 @@ Execution log:
 ### 2026.06.24. 
 - **0.7h** Read docs
 ### 2026.06.25. 
-	- **4.2h** Read docs
+- **4.2h** Read docs
+- **0.2h** Install nix
