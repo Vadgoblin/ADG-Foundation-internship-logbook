@@ -1,9 +1,9 @@
 ---
 type: "[[Task]]"
 expected_hours: 8
-actual_hours:
+actual_hours: 13.7
 start_date: 2026-06-22
-end_date:
+end_date: 2026-06-26
 ---
 **Objectives:**
 - [x] Download manifest, build and run it
@@ -37,6 +37,17 @@ Execution log:
 	- having troubles building it
 - **2.7h** - Trying to fix 3D graphic crash
 	- fixed crash but now its [only visible for 1 frame](https://youtu.be/4PRz2g8KNAI)
+
+### 2026.06.26.
+- **1.3h** - Trying to fix 3d canvas not being displayed
+	- setOpaque(false); -> expected image shows up for 1 frame, ruler only visible on resize
+	- setOpaque(true); -> expected image wont show up at all, ruler visible all the time
+	- `useCanvas = false;` doesnt work on x11 either 
+- **1.4h** - 
+	- `useCanvas = false;` doesnt work on upstream!
+	- give up
+
+
 [3d error stack trace](02-Docs/Geogebra%20discovery%203d%20error%20stack%20trace.md)
 ## Random notes:
 ### Flatpak bundle size:
