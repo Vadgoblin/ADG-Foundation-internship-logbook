@@ -44,7 +44,7 @@ Execution log:
 	- setOpaque(true); -> expected image wont show up at all, ruler visible all the time
 	- `useCanvas = false;` doesnt work on x11 either 
 - **1.4h** - 
-	- `useCanvas = false;` doesnt work on upstream!
+	- `useCanvas = false;` doesnt work on upstream! Same result on different machine.
 	- give up
 
 
