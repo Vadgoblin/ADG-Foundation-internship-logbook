@@ -14,6 +14,10 @@ end_date:
 - https://nix.dev/manual/nix/2.28/
 - https://nixos.org/guides/nix-pills/
 - https://github.com/NixOS/nixpkgs/blob/master/CONTRIBUTING.md
+- https://github.com/NixOS/.github/blob/master/CODE_OF_CONDUCT.md
+- https://github.com/NixOS/nixpkgs/blob/master/maintainers/README.md
+- https://github.com/NixOS/nixpkgs/blob/master/pkgs/README.md
+- https://github.com/NixOS/nixpkgs/blob/master/pkgs/by-name/README.md
 
 Execution log:
 ### 2026.06.24. 
@@ -33,3 +37,6 @@ Execution log:
 - **5.2h** Read nix pills
 ### 2026.07.03
 - **4.0h** Read nix pills and `CONTRIBUTING.md` of `nixpkgs`
+
+### 2026.07.21.
+- **4.0h** Read `CODE_OF_CONDUCT`, `maintainers/README.md`,`pkgs/README.md`, `pkgs/by-name/README.md`
