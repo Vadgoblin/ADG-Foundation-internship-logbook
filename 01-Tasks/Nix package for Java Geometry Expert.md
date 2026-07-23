@@ -40,3 +40,33 @@ Execution log:
 
 ### 2026.07.21.
 - **4.0h** Read `CODE_OF_CONDUCT`, `maintainers/README.md`,`pkgs/README.md`, `pkgs/by-name/README.md`
+### 2026.07.22.
+- https://github.com/Vadgoblin/learn_nix_java_packaging/`
+- **2.5h**  Writing simple (hello world) nix packages. 
+- **2.5h** Working on nix packaging `jgex`
+	- Preferences and other pop up windows are empty
+
+### 2026.07.23.
+- **0.6h**:
+	- Installing nix on laptop
+	- testing build on laptopn
+	- finding solution/workaround to the 'empty window' problem 
+- **2.0h:**
+	- populate `meta` attributes
+	- generating and installing `.desktop` file and installing icons
+	- installing nixos to to test package
+		- vm is slow
+- **2.0h:
+	- making sure my nix config complies with `nixpkgs` rules
+	- `git fetch` hangs
+	- overthinking minor details
+
+
+
+## Notes
+- ` nix-build -A <pkg_name>` at the root of a local `nixpkgs` repo
+- validate `.desktop` files with `nix-shell -p desktop-file-utils --run "desktop-file-validate result/share/applications/*.desktop"`
+- format nix file `nixfmt pkgs/by-name/yo/your-package-name/package.nix`
+
+Preferences and other pop up windows are empty:
+![](99-System/Attachments/Screenshot_2026-07-22_17-48-30.png)
