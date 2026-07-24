@@ -6,8 +6,9 @@ start_date: 2026-06-24
 end_date:
 ---
 **Objectives:**
-- [ ] Read Nix doc
+- [x] Read Nix doc
 - [x] Install Nix
+- [x] Create nix package
 
 
 **Links:**
@@ -61,6 +62,12 @@ Execution log:
 	- `git fetch` hangs
 	- overthinking minor details
 
+### 2026.07.24.
+- **1.6h**:
+	- installin nix on raspberry pi
+	- testing package on rapsberry pi (arm64)
+	- [creating PR](https://github.com/NixOS/nixpkgs/pull/545159), final double checking things 
+	- troubleshooting github check pipeline faliure
 
 
 ## Notes
