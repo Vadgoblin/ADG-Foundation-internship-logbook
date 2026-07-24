@@ -42,8 +42,7 @@ Execution log:
 ### 2026.07.21.
 - **4.0h** Read `CODE_OF_CONDUCT`, `maintainers/README.md`,`pkgs/README.md`, `pkgs/by-name/README.md`
 ### 2026.07.22.
-- https://github.com/Vadgoblin/learn_nix_java_packaging/`
-- **2.5h**  Writing simple (hello world) nix packages. 
+- **2.5h**  [Writing simple (hello world) nix packages](https://github.com/Vadgoblin/learn_nix_java_packaging/). 
 - **2.5h** Working on nix packaging `jgex`
 	- Preferences and other pop up windows are empty
 
