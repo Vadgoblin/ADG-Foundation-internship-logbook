@@ -70,7 +70,7 @@ Execution log:
 
 
 ## Notes
-- ` nix-build -A <pkg_name>` at the root of a local `nixpkgs` repo
+- `nix-build -A <pkg_name>` at the root of a local `nixpkgs` repo
 - validate `.desktop` files with `nix-shell -p desktop-file-utils --run "desktop-file-validate result/share/applications/*.desktop"`
 - format nix file `nixfmt pkgs/by-name/yo/your-package-name/package.nix`
 
