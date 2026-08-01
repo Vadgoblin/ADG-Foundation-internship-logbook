@@ -28,3 +28,4 @@ Execution log:
 	- refine metadata
 	- test it on laptop
 	- create screenshots and video
+- **0.3h** - add branding color
