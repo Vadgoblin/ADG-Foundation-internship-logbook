@@ -21,4 +21,10 @@ Execution log:
 - **1.5h** - Create a minimal, working flatpak manifest
 - **1.0h** - Trying to fix dark theme
 	- `--env=QT_QPA_PLATFORMTHEME=generic` fixes colors but breaks *File Chooser Portal*  
-- **0.0h** - asd
+- **2.0h** - Trying to fix dark theme issue without braking the *File Chooser Portal* 
+- **2.0h** - Create `metainfo`, `desktop` files. Trying to upscale icon.
+- **1.5h** - 
+	- Add final icons
+	- refine metadata
+	- test it on laptop
+	- create screenshots and video
