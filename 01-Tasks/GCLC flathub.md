@@ -7,11 +7,18 @@ date_completed:
 ---
 **Objectives:**
 - [x] Install and explore GCLC
-- [ ] Create flatpak manifest
+- [x] Create flatpak manifest
+- [x] Submit
+- [ ] Fix issues
 
 
 **Links:**
 - https://docs.flathub.org/docs/for-app-authors/submission
+- https://docs.flathub.org/docs/for-app-authors/metainfo-guidelines
+
+**Useful commands:**
+- `yamllint io.github.ADG_Foundation.gclc.yaml`
+- `nix-shell -p desktop-file-utils appstream-glib --run "desktop-file-validate io.github.ADG_Foundation.gclc.desktop && appstream-util validate io.github.ADG_Foundation.gclc.metainfo.xml"`
 - 
 
 Execution log:
@@ -29,3 +36,25 @@ Execution log:
 	- test it on laptop
 	- create screenshots and video
 - **0.3h** - add branding color
+
+#### 2026.08.02.
+- **1.0h** - Preparing for submitting
+	- Read submission requirements
+	- Address linter errors
+	- Discovering that the used appid might be incorrect
+- **0.3h** - Attempted to test it on raspberry pi but it ships legacy software
+
+#### 2026.08.03.
+- **2.2h** - Preparing for submitting
+	- updating urls to point to the ADG-Foundation fork
+	- fixing linter errors
+		- screenshot has padding and too big
+		- format yaml
+	- test if it still builds
+	- create a helper `Makefile` for building, linting and running a flatpak
+	- test it on arm64 (raspberry pi)
+- **1.0h** -
+	- remove leftover commends from `dekstop` file
+	- update source
+	- submit
+	- figure out why automated test failed
