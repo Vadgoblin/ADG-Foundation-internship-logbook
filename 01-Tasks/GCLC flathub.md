@@ -12,17 +12,20 @@ date_completed:
 - [ ] Fix issues
 
 
-**Links:**
+**Useful links:**
 - https://docs.flathub.org/docs/for-app-authors/submission
 - https://docs.flathub.org/docs/for-app-authors/metainfo-guidelines
+- https://doc.qt.io/qt-6/qstylehints.html
+
+**Results:**
+- https://github.com/ADG-Foundation/gclc/releases/tag/v2026.08
+- https://github.com/flathub/flathub/pull/9611
 
 **Useful commands:**
 - `yamllint io.github.ADG_Foundation.gclc.yaml`
 - `nix-shell -p desktop-file-utils appstream-glib --run "desktop-file-validate io.github.ADG_Foundation.gclc.desktop && appstream-util validate io.github.ADG_Foundation.gclc.metainfo.xml"`
-- 
 
-Execution log:
-
+# Execution log:
 #### 2026.08.01
 - **0.5h** - Install and try `gclc` 
 - **1.5h** - Create a minimal, working flatpak manifest
@@ -58,3 +61,56 @@ Execution log:
 	- update source
 	- submit
 	- figure out why automated test failed
+#### 2026.08.04.
+- **2.6h** -
+	- Discuss the reasons why submission was rejected
+	- Started working on the fix and refactored the build config
+		- Implement installation with cmake
+		- test it on laptop
+- **1.3h** - update flatpak manifest for the updated cmake config
+		-  while theme workaround broke 
+
+#### 2026.08.05.
+- **2.0h** 
+	- Find solution/workaournd for forcing light theme without breaking FileChooser portal
+	- Discussing details about where and how to apply changes for the flatpak building
+
+#### 2026.06.06.
+- **3.0h**
+	- fix dark background when no file is opened in gclc-gui
+	- create an install fix but  with as little cnages as possible
+	- update and test flatpak manifest 
+	- discuss furhter steps with *Zoltán Kovács*
+	- fix issues he pointed out
+	- update and test flatpak with the merged fixes
+	- discussing found issues
+		- open help button doesnt do anying on the flatpak build
+		- saved file wont be written on disk
+- **2.0h**
+	- fix *save as* doesnt work *
+	- fix help button doesnt work
+
+#### 2026.06.07.
+- **2.5h**
+	- Creating release for GCLC
+	- Create final flatpak manifest
+	- Test it:
+		- help doesnt open on Raspberry pi, not sure why
+	- Submit it
+	- Test the fatlapk's build
+		- Export doesnt work (same issue as save as)
+
+#### 2026.06.10.
+- **3.5h**
+	- Fixing *save* (default save location is tmpfs in flatpak)
+	- Fixing *export* (doesnt save file unless excension manually added)
+	- Testing flatpak build
+## Notes:
+
+solution to broken workaround
+```
+    post-install:
+      - mv /app/bin/gclc-gui /app/bin/gclc-gui-bin
+      # - install -Dm755 gclc-gui /app/bin/gclc-gui
+      - install -Dm755 gclc-gui-wrapper /app/bin/gclc-gui
+```
