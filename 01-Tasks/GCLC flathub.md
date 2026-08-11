@@ -75,7 +75,7 @@ date_completed:
 	- Find solution/workaournd for forcing light theme without breaking FileChooser portal
 	- Discussing details about where and how to apply changes for the flatpak building
 
-#### 2026.06.06.
+#### 2026.08.06.
 - **3.0h**
 	- fix dark background when no file is opened in gclc-gui
 	- create an install fix but  with as little cnages as possible
@@ -90,7 +90,7 @@ date_completed:
 	- fix *save as* doesnt work *
 	- fix help button doesnt work
 
-#### 2026.06.07.
+#### 2026.08.07.
 - **2.5h**
 	- Creating release for GCLC
 	- Create final flatpak manifest
@@ -100,11 +100,18 @@ date_completed:
 	- Test the fatlapk's build
 		- Export doesnt work (same issue as save as)
 
-#### 2026.06.10.
+#### 2026.08.10.
 - **3.5h**
 	- Fixing *save* (default save location is tmpfs in flatpak)
 	- Fixing *export* (doesnt save file unless excension manually added)
 	- Testing flatpak build
+
+#### 2026.08.11.
+- **2.5h**
+	- Update test and submit flatpak manifest
+	- Export charses on fedora
+	- Save as also chrashes
+	-  Fix it.
 ## Notes:
 
 solution to broken workaround

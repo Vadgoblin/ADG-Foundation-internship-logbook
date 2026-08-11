@@ -48,7 +48,7 @@ Execution log:
 	- give up
 
 
-[3d error stack trace](02-Docs/Geogebra%20discovery%203d%20error%20stack%20trace.md)
+[3d error stack trace](03-Docs/Geogebra%20discovery%203d%20error%20stack%20trace.md)
 ## Random notes:
 ### Flatpak bundle size:
 old manifest: 107.7
