@@ -1,15 +1,15 @@
 ---
 type: "[[Task]]"
 expected_hours: 8
-actual_hours:
+actual_hours: 32.7
 date_started: 2026-08-01
-date_completed:
+date_completed: 2026-08-11
 ---
 **Objectives:**
 - [x] Install and explore GCLC
 - [x] Create flatpak manifest
 - [x] Submit
-- [ ] Fix issues
+- [x] Fix issues
 
 
 **Useful links:**
@@ -87,7 +87,7 @@ date_completed:
 		- open help button doesnt do anying on the flatpak build
 		- saved file wont be written on disk
 - **2.0h**
-	- fix *save as* doesnt work *
+	- fix *save as* doesnt work
 	- fix help button doesnt work
 
 #### 2026.08.07.
