@@ -16,6 +16,7 @@ SORT expected_hours DESC
 | [Wayland support for Java Geometry Expert on flatpack](01-Tasks/Wayland%20support%20for%20Java%20Geometry%20Expert%20on%20flatpack.md) | 16       | 18.8   |
 | [GCLC flathub](01-Tasks/GCLC%20flathub.md)                                                                                             | 8        | 32.7   |
 | [Wayland support for Geogebra discovery on flatpack](01-Tasks/Wayland%20support%20for%20Geogebra%20discovery%20on%20flatpack.md)       | 8        | 13.7   |
+| [Patches for GCLC upstream](01-Tasks/Patches%20for%20GCLC%20upstream.md)                                                               | 2        | \-     |
 
 <!-- SerializedQuery END -->
 
