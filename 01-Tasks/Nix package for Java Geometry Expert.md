@@ -67,6 +67,7 @@ Execution log:
 	- testing package on rapsberry pi (arm64)
 	- [creating PR](https://github.com/NixOS/nixpkgs/pull/545159), final double checking things 
 	- troubleshooting github check pipeline faliure
+### Waiting for review/merge.
 
 
 ## Notes

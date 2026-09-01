@@ -7,7 +7,7 @@ end_date: 2026-06-26
 ---
 **Objectives:**
 - [x] Download manifest, build and run it
-- [ ] Update manifest 
+- [x] Update manifest 
 
 
 

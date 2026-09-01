@@ -17,7 +17,7 @@ SORT date_started ASC
 | [Nix package for Java Geometry Expert](01-Tasks/Nix%20package%20for%20Java%20Geometry%20Expert.md)                                     | 32       | 35.7   |
 | [GCLC flathub](01-Tasks/GCLC%20flathub.md)                                                                                             | 8        | 32.7   |
 | [Patches for GCLC upstream](01-Tasks/Patches%20for%20GCLC%20upstream.md)                                                               | 2        | 2      |
-| [Refactor Geogebra Prover](01-Tasks/Refactor%20Geogebra%20Prover.md)                                                                   | 16       | \-     |
+| [Refactor Geogebra Prover](01-Tasks/Refactor%20Geogebra%20Prover.md)                                                                   | 16       | 16.5   |
 
 <!-- SerializedQuery END -->
 
