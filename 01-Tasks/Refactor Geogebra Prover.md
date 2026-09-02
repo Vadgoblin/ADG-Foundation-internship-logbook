@@ -2,8 +2,8 @@
 type: "[[Task]]"
 expected_hours: 16
 actual_hours: 16.5
-date_started: 2026-08-26
-date_completed:
+start_date: 2026-08-26
+end_date:
 ---
 **Objectives:**
 - [x] Read source code

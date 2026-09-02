@@ -2,8 +2,8 @@
 type: "[[Task]]"
 expected_hours: 2
 actual_hours: 2
-date_started: 2026-08-26
-date_completed: 2026-08-26
+start_date: 2026-08-26
+end_date: 2026-08-26
 ---
 **Objectives:**
 - [x] Test changes on upstream gclc before creating pr

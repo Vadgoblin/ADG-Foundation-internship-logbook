@@ -5,10 +5,10 @@ TABLE WITHOUT ID
 	expected_hours AS "Expected", 
 	actual_hours AS "Actual"
 FROM "01-Tasks"
-SORT date_started ASC
+SORT date(start_date) ASC
 
 -->
-<!-- SerializedQuery: TABLE WITHOUT ID "[" + file.name + "](" + replace(file.path, " ", "%20") + ")" AS "Link", expected_hours AS "Expected", actual_hours AS "Actual" FROM "01-Tasks" SORT date_started ASC -->
+<!-- SerializedQuery: TABLE WITHOUT ID "[" + file.name + "](" + replace(file.path, " ", "%20") + ")" AS "Link", expected_hours AS "Expected", actual_hours AS "Actual" FROM "01-Tasks" SORT date(start_date) ASC -->
 
 | Link                                                                                                                                   | Expected | Actual |
 | -------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------ |
@@ -18,6 +18,7 @@ SORT date_started ASC
 | [GCLC flathub](01-Tasks/GCLC%20flathub.md)                                                                                             | 8        | 32.7   |
 | [Patches for GCLC upstream](01-Tasks/Patches%20for%20GCLC%20upstream.md)                                                               | 2        | 2      |
 | [Refactor Geogebra Prover](01-Tasks/Refactor%20Geogebra%20Prover.md)                                                                   | 16       | 16.5   |
+| [flake.nix for Java Geomtery Expert](01-Tasks/flake.nix%20for%20Java%20Geomtery%20Expert.md)                                           | 4        | 3.5    |
 
 <!-- SerializedQuery END -->
 

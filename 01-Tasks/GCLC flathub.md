@@ -2,8 +2,8 @@
 type: "[[Task]]"
 expected_hours: 8
 actual_hours: 32.7
-date_started: 2026-08-01
-date_completed: 2026-08-11
+start_date: 2026-08-01
+end_date: 2026-08-11
 ---
 **Objectives:**
 - [x] Install and explore GCLC
