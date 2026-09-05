@@ -9,7 +9,7 @@ end_date: 2026-09-02
 - [x] create `flake.nix` 
 
 **Results:**
-- https://github.com/Vadgoblin/JGEX-flake/commit/c314d69856520512448d5ed8e631c74c65c546ea
+- [https://github.com/Vadgoblin/JGEX-flake/commit/c314d69856520512448d5ed8e631c74c65c546ea](https://github.com/Vadgoblin/JGEX-flake/tree/c314d69856520512448d5ed8e631c74c65c546ea)
 
 **Execution log:**
 
