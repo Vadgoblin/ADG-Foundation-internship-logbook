@@ -1,9 +1,9 @@
 ---
 type: "[[Task]]"
 expected_hours: 42
-actual_hours: 15.5
+actual_hours: 17.8
 start_date: 2026-09-03
-end_date:
+end_date: 2026-09-07
 ---
 **Description**
 When running JGEX in cheerpj, the save and load doesnt work as expected. It opens a window inside the containerized environment and only the files within this container visible. Expected behavior: Save and load opens a native window on the host machine with access to the files in the host. 
@@ -18,6 +18,7 @@ Update: 'open url' is also broken - needs to fixed as well
 **Results**
 - https://github.com/Vadgoblin/Java-Geometry-Expert/tree/fix-cheerpj-save-load
 - https://github.com/Vadgoblin/jgex-web
+- https://github.com/kovzol/Java-Geometry-Expert/pull/52
 
 **Links**
 - https://cheerpj.com/docs/overview
@@ -39,3 +40,10 @@ Update: 'open url' is also broken - needs to fixed as well
 
 `2026.09.05.`
 - `3.5h` - Implement rest of the 'save as x', fix 'open url'
+
+`2026.09.07.`
+- `2.3h`:
+	- add `html`, `js` and `css` files to jgex repo
+	- create `buildWeb` gradle task
+	- fix app can only run in web root
+	- add readme to `jgex-web` repo
