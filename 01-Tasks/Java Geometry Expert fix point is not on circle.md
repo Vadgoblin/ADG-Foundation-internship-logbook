@@ -1,9 +1,9 @@
 ---
 type: "[[Task]]"
 expected_hours: 4
-actual_hours:
+actual_hours: 11.2
 start_date: 2026-09-08
-end_date:
+end_date: 2026-09-11
 ---
 **Description**
 Point is not on the circle.
