@@ -22,6 +22,7 @@ SORT date(start_date) ASC
 | [Java Geometry Expert in cheerpj fix save and load](01-Tasks/Java%20Geometry%20Expert%20in%20cheerpj%20fix%20save%20and%20load.md)     | 42       | 17.8   |
 | [Java Geometry Expert fix point is not on circle](01-Tasks/Java%20Geometry%20Expert%20fix%20point%20is%20not%20on%20circle.md)         | 4        | 11.2   |
 | [Appimage and windows exe for JGEX release 0.88](01-Tasks/Appimage%20and%20windows%20exe%20for%20JGEX%20release%200.88.md)             | 10       | 19.8   |
+| [Fix online help of JGEX](01-Tasks/Fix%20online%20help%20of%20JGEX.md)                                                                 | 4        | 1.8    |
 
 <!-- SerializedQuery END -->
 
