@@ -16,7 +16,16 @@ Types of packages:
 - mac?
 
 **Objectives:**
-- [ ] todo
+- [x] Get familiar with github actions/workflow
+- [x] Get familiar with creating AppImage 
+- [x] Create AppImage manually
+- [x] Automate AppImage Creation
+- [x] Create `deb` package manually
+- [x] Automate `deb` package creation
+- [x] Create `rpm` package manually
+- [x] Automate `rpm` package creation
+- [ ] Create `pacman` package manually
+- [ ] Automate `pacman` package creation
 
 Result:
 - https://github.com/Vadgoblin/gclc/tree/automated-appimage-build-pure-gh-workflow
@@ -59,3 +68,6 @@ Result:
 	- tried but couldn't to fix caching on github 
 #### 2026.09.25
 - `2.0h`: create `deb` and `rpm` package manually
+- `1.0h`: fix `deb`'s filename and test it
+- `0.5h`: create automated `rpm` building and test `deb` and `rpm`.
+- `3.5h`: read about `pacman` packaging
