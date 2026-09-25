@@ -21,6 +21,7 @@ Types of packages:
 Result:
 - https://github.com/Vadgoblin/gclc/tree/automated-appimage-build-pure-gh-workflow
 - https://github.com/Vadgoblin/gclc/tree/automated-appimage-build-docker-v2
+- https://github.com/Vadgoblin/gclc/tree/__manual_deb_rpm_packaging
 
 # Execution log:
 #### 2026.09.18
@@ -44,15 +45,17 @@ Result:
 - `1.5h:
 	- fix cache id
 	- fix result not being uploaded to release page
-#### 2026.09.24
+#### 2026.09.23
 - `4.0h`
 	- try to make smoke test for gh workflo
 	- create docker based Flatpak packaging
 	- it works locally but fails on github
 	- worked on re-run 
-#### 2026.09.25
+#### 2026.09.24
 - `1.5h`
 	- update version of `actions/xx` s
 	- replace softprops/action-gh-release@v2 with gh release upload
 	- caching on github  is broken, works locally
 	- tried but couldn't to fix caching on github 
+#### 2026.09.25
+- `2.0h`: create `deb` and `rpm` package manually
