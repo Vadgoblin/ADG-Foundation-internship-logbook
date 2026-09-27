@@ -14,6 +14,7 @@ Types of packages:
 - pacman?
 - windows installer
 - mac?
+Entries marked with `?` are not mandatory but would be nice to have.
 
 **Objectives:**
 - [x] Get familiar with github actions/workflow
@@ -25,12 +26,18 @@ Types of packages:
 - [x] Create `rpm` package manually
 - [x] Automate `rpm` package creation
 - [ ] Create `pacman` package manually
-- [ ] Automate `pacman` package creation
+- [x] Automate `pacman` package creation
+- [ ] Create windows installer
 
-Result:
+**Result**:
 - https://github.com/Vadgoblin/gclc/tree/automated-appimage-build-pure-gh-workflow
 - https://github.com/Vadgoblin/gclc/tree/automated-appimage-build-docker-v2
 - https://github.com/Vadgoblin/gclc/tree/__manual_deb_rpm_packaging
+
+**Links:**
+- https://wiki.archlinux.org/title/Creating_packages
+- https://wiki.archlinux.org/title/PKGBUILD
+- https://wiki.archlinux.org/title/Makepkg
 
 # Execution log:
 #### 2026.09.18
@@ -71,3 +78,8 @@ Result:
 - `1.0h`: fix `deb`'s filename and test it
 - `0.5h`: create automated `rpm` building and test `deb` and `rpm`.
 - `3.5h`: read about `pacman` packaging
+#### 2026.09.27
+- `1.0h`:
+	- read about `pacman` packaging
+	- fix CPACK's licence and contact  values
+	- create automated `pacman` packaging
