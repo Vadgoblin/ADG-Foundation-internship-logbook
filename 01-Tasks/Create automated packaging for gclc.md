@@ -1,7 +1,7 @@
 ---
 type: "[[Task]]"
 expected_hours: 42
-actual_hours:
+actual_hours: 40.7
 start_date: 2026-09-19
 end_date:
 ---
@@ -25,14 +25,17 @@ Entries marked with `?` are not mandatory but would be nice to have.
 - [x] Automate `deb` package creation
 - [x] Create `rpm` package manually
 - [x] Automate `rpm` package creation
-- [ ] Create `pacman` package manually
+- [x] Create `pacman` package manually
 - [x] Automate `pacman` package creation
-- [ ] Create windows installer
+- [x] Create and automate windows installer
+- [x] Create mac installer
+- [x] Test mac installer
 
 **Result**:
 - https://github.com/Vadgoblin/gclc/tree/automated-appimage-build-pure-gh-workflow
 - https://github.com/Vadgoblin/gclc/tree/automated-appimage-build-docker-v2
 - https://github.com/Vadgoblin/gclc/tree/__manual_deb_rpm_packaging
+- https://github.com/ADG-Foundation/gclc/pull/9
 
 **Links:**
 - https://wiki.archlinux.org/title/Creating_packages
@@ -83,3 +86,35 @@ Entries marked with `?` are not mandatory but would be nice to have.
 	- read about `pacman` packaging
 	- fix CPACK's licence and contact  values
 	- create automated `pacman` packaging
+- `1.0h`: update scripts and gh workflow to create arm64 appimage as well
+- `1.5h`:
+	- add arm64 build support for all scripts
+	- tried but failed to test arm packages on raspberry pi + distrobox
+#### 2026.09.28
+- `2.5h`:
+	- create windows installer
+	- setup remote desktop on my other windows machine
+	- fix missing icon on installed windows gclc app
+#### 2026.09.29
+- `1.0h`: create mac build
+#### 2026.09.30
+- `0.0h`: 
+	- the person i asked to test macos arm64 build reported that couldnt get it to run due to it not being *verified*
+	- macos x86_64 build failed on github because waiting for runner timed out
+
+#### 2026.10.02
+- `1.5h`:
+	- removed mac build script
+	- noticed that there are 2 `gclc_man.pdf`  in the repo, one of them is older and the older one is packaged inside that executable for in app help
+- `3.0h`:
+	- remove cache and rebuild everything locally
+	- add build script for building manual from latex into pdf
+	- update build scripts to include licence, readme, manual,samples, working_example, LaTeX_packages, XML_support
+	- fix manual building failes on github actions
+	- test github builds
+#### 2026.10.04
+- `1.7h`:
+	- Rename dir `package` to `packaging` and update all references to it
+	- Smoke test all builds again
+	- add missing row from help in `Makefile`
+	- Add readme to packaging dir
