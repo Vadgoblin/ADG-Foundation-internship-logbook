@@ -27,11 +27,12 @@ Types of packages:
 	- arm64 `appimagetool` doesnt want to run in arm64 emulated docker container for same reason
 	- complete AppImage build script, push it to gh, workflow runs on release
 	- test gh's builds
-- `?.?h`
+- `2.7h`
 	- Once again i came across the 'fat jar' or 'uber jar' problem. Disabling uber jar breaks some packaging but it makes dist also use fat jar but still keep the other jars and other assets
 	- created a separate gradle task to create fat jar and updated related gradle tasks to use it instead of the default jar build witch isnt fat.
 	- The file size of the non fat jar still big. It contains all the java resources after all, but `gradlew installDist` also copies thees files to the output dir next to the `jgex` executable.
 	- `src/main/java/wprover/GExpert.java` line 830 `void addDirectory(JMenu menu, String resourceDir)` -> looks like the application can handle loading files from jar
+	- fixed `gradle` config to remove packaging things twice including java dependencies and resources
 
 
 **Other:**
@@ -40,5 +41,5 @@ Types of packages:
 | --------------------------------------------------------- | -------------- | ---- | ---- | -------- | ------------ |
 | fat jar                                                   | 17.2           | 65.6 | 65.9 | 64.1     | 42.4         |
 | non fat jar (some of the builds are broken)               | 11.3           | 60.4 | 60.7 | 58.9     | 36.5         |
-| non fat jar without copying files that are already in jar |                | 57.8 | 57.8 |          |              |
+| non fat jar without copying files that are already in jar |                | 52.4 | 54.2 | 52.2     | 17.3         |
 
