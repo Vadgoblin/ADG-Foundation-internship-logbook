@@ -3,7 +3,7 @@ type: "[[Task]]"
 expected_hours: 42
 actual_hours: 40.7
 start_date: 2026-09-19
-end_date:
+end_date: 2026-10-05
 ---
 **Description:**
 Create a guthub automation that automatically creates packages for a github release.
@@ -118,3 +118,6 @@ Entries marked with `?` are not mandatory but would be nice to have.
 	- Smoke test all builds again
 	- add missing row from help in `Makefile`
 	- Add readme to packaging dir
+
+#### 2026.10.04
+- `0.0h`: PR got merged
