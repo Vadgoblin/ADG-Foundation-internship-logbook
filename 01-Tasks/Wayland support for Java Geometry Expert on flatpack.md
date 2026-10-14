@@ -11,6 +11,9 @@ end_date: 2026-06-14
  - [x] Read `flathub` documentation.
  - [x] Update flatpak yaml.
 
+**Result:**
+- https://github.com/flathub/io.github.ADG_Foundation.Java-Geometry-Expert/pull/2
+
 Execution Log:
 
 ### 2026.06.13.

@@ -5,11 +5,8 @@ actual_hours:
 start_date: 2026-10-12
 end_date:
 ---
-**Objectives:**
-- [ ]  
-
-Result:
-- 
+**Result**:
+- Deployed hotcrp in a test env
 
 # Execution log:
 #### 2026.10.12.
@@ -26,11 +23,13 @@ Result:
 	- setup mailserver
 	- setup `anubis`
 
-#### 2026.10.12.
+#### 2026.10.13.
 - `1.2h`:
 	- give admin privileges to other ADG foundation member
 	- play around with the website
 	- figure out how to make backup
+#### 2026.10.14.
+- `0.9h` - look for payment option and write a ticket about it
 
 ---
 php-addr-error:
