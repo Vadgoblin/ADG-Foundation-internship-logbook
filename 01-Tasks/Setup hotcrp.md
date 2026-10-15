@@ -30,6 +30,9 @@ end_date:
 	- figure out how to make backup
 #### 2026.10.14.
 - `0.9h` - look for payment option and write a ticket about it
+#### 2026.10.15.
+- `0.2h` - talk with customer support
+#### Waiting for further tasks
 
 ---
 php-addr-error:
