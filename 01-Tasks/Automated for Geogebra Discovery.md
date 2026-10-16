@@ -8,9 +8,9 @@ end_date:
 **Objectives:**
 - [x] clone repo, create new branch, get the project to build
 - [x] create  automated packaging for `.deb` 
-- [ ] create  automated packaging for `.rpm` 
-- [ ] create  automated packaging for `.pacman` 
-- [ ] create  automated packaging for `.AppImage` 
+- [x] create  automated packaging for `.rpm` 
+- [x] create  automated packaging for `.pacman` 
+- [x] create  automated packaging for `.AppImage` 
 - [ ] create  automated packaging for  Windows
 
 Result:
@@ -43,3 +43,22 @@ Result:
 - `2.5h`:
 	- build `rpm` by hand
 	- write rpm packaging script
+#### 2026.10.16.
+- `2.5`:
+	- fix filenames in `.deb` packaging script
+	- fix filename, permission and hardcoded version number in `.rpm` packaging script
+	- smoke test the gh build
+	- start making pacman packaging script
+- `3.4h`: 
+	- finish  pacman packaging script
+	- test created package
+	- create github workflow for automated pacman packaging
+	- pacman and rpm workflow wails on gh
+	- fix workflow breaking bug, fix minor stuff like missing "-discovery" postfix in some file names
+	- start making AppImage packaging script
+- `2.4h`:
+	- finish AppImage packaging script
+	- test AppImage build
+	- create gh workflow for AppImage packaging
+	- set correct licence
+	- minor fixes
