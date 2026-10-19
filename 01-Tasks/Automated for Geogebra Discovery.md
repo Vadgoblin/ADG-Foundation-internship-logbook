@@ -11,10 +11,10 @@ end_date:
 - [x] create  automated packaging for `.rpm` 
 - [x] create  automated packaging for `.pacman` 
 - [x] create  automated packaging for `.AppImage` 
-- [ ] create  automated packaging for  Windows
+- [x] create  automated packaging for  Windows
 
 Result:
-- 
+- https://github.com/kovzol/geogebra/pull/28
 
 # Execution log:
 #### 2026.10.14.
@@ -62,3 +62,9 @@ Result:
 	- create gh workflow for AppImage packaging
 	- set correct licence
 	- minor fixes
+#### 2026.10.19.
+- `4.1`: start working on windows installer build script
+- `3.2`: finish windows installer build script
+- `0.6`:
+	- fix rpm packaging fails
+	- test gh's build
