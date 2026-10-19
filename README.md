@@ -6,10 +6,10 @@ TABLE WITHOUT ID
   actual_hours AS "Actual",
     choice(end_date != null, "✅", "❌") AS "Completed"
 FROM "01-Tasks"
-SORT date(start_date) ASC
+SORT date(start_date) ASC, date(end_date) ASC
 
 -->
-<!-- SerializedQuery: TABLE WITHOUT ID "[" + file.name + "](" + replace(file.path, " ", "%20") + ")" AS "Link", expected_hours AS "Expected", actual_hours AS "Actual", choice(end_date != null, "✅", "❌") AS "Completed" FROM "01-Tasks" SORT date(start_date) ASC -->
+<!-- SerializedQuery: TABLE WITHOUT ID "[" + file.name + "](" + replace(file.path, " ", "%20") + ")" AS "Link", expected_hours AS "Expected", actual_hours AS "Actual", choice(end_date != null, "✅", "❌") AS "Completed" FROM "01-Tasks" SORT date(start_date) ASC, date(end_date) ASC -->
 
 | Link                                                                                                                                         | Expected | Actual | Completed |
 | -------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------ | --------- |
