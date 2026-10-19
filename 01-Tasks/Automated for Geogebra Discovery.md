@@ -13,7 +13,7 @@ end_date:
 - [x] create  automated packaging for `.AppImage` 
 - [x] create  automated packaging for  Windows
 
-Result:
+**Result**:
 - https://github.com/kovzol/geogebra/pull/28
 
 # Execution log:
