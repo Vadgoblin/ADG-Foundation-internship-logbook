@@ -1,9 +1,9 @@
 ---
 type: "[[Task]]"
 expected_hours: 32
-actual_hours:
+actual_hours: 30.1
 start_date: 2026-10-14
-end_date:
+end_date: 2026-10-20
 ---
 **Objectives:**
 - [x] clone repo, create new branch, get the project to build
@@ -68,3 +68,8 @@ end_date:
 - `0.6`:
 	- fix rpm packaging fails
 	- test gh's build
+#### 2026.10.20.
+- `0.5h`:
+	- add option to automatically start program after installation 
+	- fix encoding error when using build scripts
+- `0.0h`: pr got merged
