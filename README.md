@@ -35,3 +35,9 @@ SORT date(start_date) ASC, date(end_date) ASC
 <!-- SerializedQuery END -->
 
 
+```dataview
+TABLE WITHOUT ID
+  round(sum(map(rows, (r) => default(r.actual_hours, 0))), 2) AS "Total Actual Hours"
+FROM "01-Tasks"
+GROUP BY "All tasks"
+```
