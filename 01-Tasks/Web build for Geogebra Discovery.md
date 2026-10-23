@@ -1,9 +1,9 @@
 ---
 type: "[[Task]]"
 expected_hours: 4
-actual_hours:
+actual_hours: 3.6
 start_date: 2026-10-21
-end_date:
+end_date: 2026-10-23
 ---
 **Description:**
 Create a github wokflow to build the web version of Geogebra Discovery automatically on release and upload it to the release page.
@@ -28,3 +28,5 @@ Result:
 - `0.3`: 
 	- re-run gh workflow because i disable wrong one due to accidentally swapped names 
 	- fix name swap
+#### 2026.10.23.
+- `0.0h`: pr got merged

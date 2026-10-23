@@ -32,8 +32,9 @@ SORT date(start_date) ASC, date(end_date) ASC
 | [Fix JGEX encoding issues on windows](01-Tasks/Fix%20JGEX%20encoding%20issues%20on%20windows.md)                                             | 4        | 1.6    | ✅         |
 | [Automated packaging for Geogebra Discovery](01-Tasks/Automated%20packaging%20for%20Geogebra%20Discovery.md)                                 | 32       | 30.1   | ✅         |
 | [Add "distributed by the ADG Foundation" notice in gclc](01-Tasks/Add%20"distributed%20by%20the%20ADG%20Foundation"%20notice%20in%20gclc.md) | 0.6      | 0.4    | ✅         |
-| [Web build for Geogebra Discovery](01-Tasks/Web%20build%20for%20Geogebra%20Discovery.md)                                                     | 4        | \-     | ❌         |
 | [Mac build for gclc](01-Tasks/Mac%20build%20for%20gclc.md)                                                                                   | 4        | \-     | ❌         |
+| [Web build for Geogebra Discovery](01-Tasks/Web%20build%20for%20Geogebra%20Discovery.md)                                                     | 4        | 3.6    | ✅         |
+| [jgex fix build](01-Tasks/jgex%20fix%20build.md)                                                                                             | 1        | 0.6    | ✅         |
 
 <!-- SerializedQuery END -->
 
