@@ -25,7 +25,7 @@ SORT date(start_date) ASC, date(end_date) ASC
 | [Java Geometry Expert fix point is not on circle](01-Tasks/Java%20Geometry%20Expert%20fix%20point%20is%20not%20on%20circle.md)               | 4        | 11.2   | ✅         |
 | [Appimage and windows exe for JGEX release 0.88](01-Tasks/Appimage%20and%20windows%20exe%20for%20JGEX%20release%200.88.md)                   | 10       | 19.8   | ✅         |
 | [Fix online help of JGEX](01-Tasks/Fix%20online%20help%20of%20JGEX.md)                                                                       | 4        | 1.8    | ✅         |
-| [Refactor hard coded values in JGEX](01-Tasks/Refactor%20hard%20coded%20values%20in%20JGEX.md)                                               | 2        | 1      | ✅         |
+| [Refactor hard coded values in JGEX](01-Tasks/Refactor%20hard%20coded%20values%20in%20JGEX.md)                                               | 2        | 2.4    | ✅         |
 | [Automated packaging for gclc](01-Tasks/Automated%20packaging%20for%20gclc.md)                                                               | 42       | 40.7   | ✅         |
 | [Automated packaging for jgex](01-Tasks/Automated%20packaging%20for%20jgex.md)                                                               | 12       | 15.4   | ✅         |
 | [Setup hotcrp](01-Tasks/Setup%20hotcrp.md)                                                                                                   | 12       | \-     | ❌         |
