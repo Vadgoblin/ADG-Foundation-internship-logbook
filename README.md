@@ -13,6 +13,7 @@ SORT date(start_date) ASC, date(end_date) ASC
 
 | Link                                                                                                                                         | Expected | Actual | Completed |
 | -------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------ | --------- |
+| [Test](01-Tasks/Test.md)                                                                                                                     | \-       | \-     | ✅         |
 | [Wayland support for Java Geometry Expert on flatpack](01-Tasks/Wayland%20support%20for%20Java%20Geometry%20Expert%20on%20flatpack.md)       | 16       | 18.8   | ✅         |
 | [Wayland support for Geogebra discovery on flatpack](01-Tasks/Wayland%20support%20for%20Geogebra%20discovery%20on%20flatpack.md)             | 8        | 13.7   | ✅         |
 | [Nix package for Java Geometry Expert](01-Tasks/Nix%20package%20for%20Java%20Geometry%20Expert.md)                                           | 32       | 35.7   | ❌         |
@@ -32,7 +33,7 @@ SORT date(start_date) ASC, date(end_date) ASC
 | [Automated packaging for Geogebra Discovery](01-Tasks/Automated%20packaging%20for%20Geogebra%20Discovery.md)                                 | 32       | 30.1   | ✅         |
 | [Add "distributed by the ADG Foundation" notice in gclc](01-Tasks/Add%20"distributed%20by%20the%20ADG%20Foundation"%20notice%20in%20gclc.md) | 0.6      | 0.4    | ✅         |
 | [Web build for Geogebra Discovery](01-Tasks/Web%20build%20for%20Geogebra%20Discovery.md)                                                     | 4        | \-     | ❌         |
-| [Mac build for jgex](01-Tasks/Mac%20build%20for%20jgex.md)                                                                                   | 4        | \-     | ❌         |
+| [Mac build for gclc](01-Tasks/Mac%20build%20for%20gclc.md)                                                                                   | 4        | \-     | ❌         |
 
 <!-- SerializedQuery END -->
 
