@@ -1,9 +1,9 @@
 ---
 type: "[[Task]]"
 expected_hours: 4
-actual_hours:
+actual_hours: 4.8
 start_date: 2026-10-21
-end_date:
+end_date: 2026-10-24
 ---
 **Description:**
 Create a github wokflow to autimatically create mac build on release.
@@ -28,3 +28,5 @@ Result:
 	- fix inconsistent github action names
 	- fix missing icon
 	- patiently wait for github to build the package and for [Zoltán Kovács](Zoltán%20Kovács) to test it.
+#### 2026.10.24.
+- `0.0h`: pr got merged
