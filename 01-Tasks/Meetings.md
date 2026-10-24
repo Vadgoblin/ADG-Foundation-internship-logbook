@@ -1,7 +1,7 @@
 ---
 type: "[[Task]]"
 expected_hours:
-actual_hours:
+actual_hours: 4
 start_date: 2026-04-01
 end_date: 2026-04-01
 ---
