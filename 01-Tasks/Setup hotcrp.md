@@ -7,6 +7,8 @@ end_date:
 ---
 **Result**:
 - Deployed hotcrp in a test env
+- Deploy hotcrp in prod
+- Write documentaion on how to deploy it
 
 # Execution log:
 #### 2026.10.12.
@@ -29,10 +31,11 @@ end_date:
 	- play around with the website
 	- figure out how to make backup
 #### 2026.10.14.
-- `0.9h` - look for payment option and write a ticket about it
-#### 2026.10.15.
-- `0.2h` - talk with customer support
-#### Waiting for further tasks
+- `0.3h` - look for payment option and write a ticket about it
+#### 2026.10.29.
+- `2.5h` - Deploy HotCRP on prod server with [Zoltán Kovács](Zoltán%20Kovács)
+- `3.3h` - start working on documentation
+- `2.2h` - finish documentation, follow steps on my vps to validate them
 
 ---
 php-addr-error:
