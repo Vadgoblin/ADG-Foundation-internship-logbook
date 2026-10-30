@@ -28,14 +28,14 @@ SORT date(start_date) ASC, date(end_date) ASC
 | [Refactor hard coded values in JGEX](01-Tasks/Refactor%20hard%20coded%20values%20in%20JGEX.md)                                                               | 2        | 2.4    | ✅         |
 | [Automated packaging for gclc](01-Tasks/Automated%20packaging%20for%20gclc.md)                                                                               | 42       | 40.7   | ✅         |
 | [Automated packaging for jgex](01-Tasks/Automated%20packaging%20for%20jgex.md)                                                                               | 12       | 15.4   | ✅         |
-| [Setup hotcrp](01-Tasks/Setup%20hotcrp.md)                                                                                                                   | 12       | 7      | ❌         |
+| [Setup hotcrp](01-Tasks/Setup%20hotcrp.md)                                                                                                                   | 12       | 16.6   | ❌         |
 | [Fix JGEX encoding issues on windows](01-Tasks/Fix%20JGEX%20encoding%20issues%20on%20windows.md)                                                             | 4        | 1.6    | ✅         |
 | [Automated packaging for Geogebra Discovery](01-Tasks/Automated%20packaging%20for%20Geogebra%20Discovery.md)                                                 | 32       | 30.1   | ✅         |
 | [Add "distributed by the ADG Foundation" notice in gclc](01-Tasks/Add%20"distributed%20by%20the%20ADG%20Foundation"%20notice%20in%20gclc.md)                 | 0.6      | 0.4    | ✅         |
 | [Web build for Geogebra Discovery](01-Tasks/Web%20build%20for%20Geogebra%20Discovery.md)                                                                     | 4        | 3.6    | ✅         |
 | [Mac build for gclc](01-Tasks/Mac%20build%20for%20gclc.md)                                                                                                   | 4        | 4.8    | ✅         |
-| [GGD fix release workflow fails if version starts with 'v'](01-Tasks/GGD%20fix%20release%20workflow%20fails%20if%20version%20starts%20with%20'v'.md)         | 0.4      | 0.6    | ✅         |
 | [JGEX fix build](01-Tasks/JGEX%20fix%20build.md)                                                                                                             | 1        | 0.6    | ✅         |
+| [GGD fix release workflow fails if version starts with 'v'](01-Tasks/GGD%20fix%20release%20workflow%20fails%20if%20version%20starts%20with%20'v'.md)         | 0.4      | 0.6    | ✅         |
 | [Mac build for JGEX](01-Tasks/Mac%20build%20for%20JGEX.md)                                                                                                   | 4        | 0.7    | ✅         |
 | [Update github links in ADG Foundation's JGEX repo](01-Tasks/Update%20github%20links%20in%20ADG%20Foundation's%20JGEX%20repo.md)                             | 2        | 0.4    | ✅         |
 | [Create a proof of concept for JGEX help](01-Tasks/Create%20a%20proof%20of%20concept%20for%20JGEX%20help.md)                                                 | 2        | 2.3    | ✅         |

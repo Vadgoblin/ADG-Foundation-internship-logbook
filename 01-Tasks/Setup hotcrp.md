@@ -1,7 +1,7 @@
 ---
 type: "[[Task]]"
 expected_hours: 12
-actual_hours: 7
+actual_hours: 16.6
 start_date: 2026-10-12
 end_date:
 ---
@@ -36,6 +36,9 @@ end_date:
 - `2.5h` - Deploy HotCRP on prod server with [Zoltán Kovács](Zoltán%20Kovács)
 - `3.3h` - start working on documentation
 - `2.2h` - finish documentation, follow steps on my vps to validate them
+
+#### 2026.10.30.
+- `0.6` - Proofreading the documentation. 
 
 ---
 php-addr-error:
