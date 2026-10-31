@@ -1,3 +1,6 @@
+> [!NOTE]  
+> The Markdown files were created and edited with Obsidian. Some links are broken on github.
+
 <!-- QueryToSerialize:  
 
 TABLE WITHOUT ID
