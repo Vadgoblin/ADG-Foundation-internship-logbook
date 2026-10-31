@@ -8,7 +8,7 @@ end_date: 2026-10-23
 **Description:**
 Create a github wokflow to build the web version of Geogebra Discovery automatically on release and upload it to the release page.
 
-Result:
+**Result:**
 - https://github.com/kovzol/geogebra/pull/29
 
 # Execution log:

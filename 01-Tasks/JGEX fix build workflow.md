@@ -5,8 +5,7 @@ actual_hours: 0.6
 start_date: 2026-10-23
 end_date: 2026-10-23
 ---
-
-Result:
+**Results:**
 - https://github.com/kovzol/Java-Geometry-Expert/pull/57
 
 # Execution log:

@@ -5,7 +5,7 @@ actual_hours: 0.4
 start_date: 2026-10-23
 end_date: 2026-10-24
 ---
-Result:
+**Results:**
 - https://github.com/ADG-Foundation/Java-Geometry-Expert/pull/2
 
 # Execution log:

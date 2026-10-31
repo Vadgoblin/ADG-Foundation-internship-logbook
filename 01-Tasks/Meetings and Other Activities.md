@@ -1,7 +1,7 @@
 ---
 type: "[[Task]]"
 expected_hours:
-actual_hours: 4
+actual_hours: 6
 start_date: 2026-04-01
 end_date: 2026-04-01
 ---
@@ -13,3 +13,5 @@ end_date: 2026-04-01
 - `0:30` - [2026-10-23](02-Meetings/2026-10-23.md)
 ---
 243 mintes ~ 4hours
+
+`2.0h` - clean up this document

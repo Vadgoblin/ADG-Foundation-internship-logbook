@@ -6,7 +6,7 @@ start_date: 2026-09-15
 end_date: 2026-09-16
 ---
 **Description:**
-Create an Appimage and a windows exe for the latest (0.88) release of `Java Geometry Expert`
+Create an Appimage and a windows exe for the latest (0.88) release of `Java Geometry Expert`.
 
 **Objectives:**
 - [x] Read Appimage docs
