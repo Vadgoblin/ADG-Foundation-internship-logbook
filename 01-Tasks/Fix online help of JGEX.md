@@ -16,6 +16,6 @@ Result:
 
 # Execution log:
 #### 2026.09.17
-- **1.8h**:
+- `1.8h`: 
 	- Create a test repo and try out github pages
 	- Update JGEX's code in a way that if it gets merged, the online help should work

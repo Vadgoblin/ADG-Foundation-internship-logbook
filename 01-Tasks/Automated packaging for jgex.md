@@ -58,7 +58,7 @@ Types of packages:
 	- Pr got merged
 	- Some discussion about the windows encoding bug and I helped setting up the github page for [Fix online help of JGEX](01-Tasks/Fix%20online%20help%20of%20JGEX.md).
 
-**Other:**
+---
 
 |                                                           | "runnable" jar | deb  | rpm  | AppImage | dist install |
 | --------------------------------------------------------- | -------------- | ---- | ---- | -------- | ------------ |

@@ -1,9 +1,9 @@
 ---
 type: "[[Task]]"
 expected_hours: 12
-actual_hours: 16.6
+actual_hours: 15.1
 start_date: 2026-10-12
-end_date:
+end_date: 2026-10-31
 ---
 **Result**:
 - Deployed hotcrp in a test env

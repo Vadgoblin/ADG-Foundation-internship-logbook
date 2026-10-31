@@ -8,24 +8,23 @@ end_date: 2026-09-16
 **Description:**
 Create an Appimage and a windows exe for the latest (0.88) release of `Java Geometry Expert`
 
-
 **Objectives:**
 - [x] Read Appimage docs
 - [x] Make appimage
 - [x] Make windows executeable
-
-**Links:**
-- https://docs.appimage.org/index.html
 
 **Result:**
 - https://github.com/kovzol/Java-Geometry-Expert/pull/55
 - `AppImage`
 - windows installer `exe`
 
+**Links:**
+- https://docs.appimage.org/index.html
+
 # Execution log:
-#### 2026.09.14:
+### 2026.09.14:
 - `4.5h` read Appimage docs
-#### 2026.09.15:
+### 2026.09.15:
 - `1.5h`: read Appimage docs
 - `1.5h`: extract previous release's appimage and explore it structure, create an app image from the new build
 - `0.5h`: strip jdk to achieve smaller AppImage size
@@ -34,7 +33,7 @@ Create an Appimage and a windows exe for the latest (0.88) release of `Java Geom
 	- Try to make `AppImage` using `de.infolektuell.jpackage` with the command `./gradlew appImage` but that fails when running `jdeps`. (Stripping jdk)
 	- Notice the config for making 'fat jars' in build.gradle. Turns out, `./gradlew installDist` make a fat jar for the application (which includes all depencency) + puts all dependency next to it as separate files as well.
 	- Investigate whether or not fat jar is needed for `deb` and `rpm` package creation. I suspected that its needed, but (unless i messed up) it works without it. There is a size comparison table below.
-#### 2026.09.16:
+### 2026.09.16:
 - `0.5h`: test non fat jar based `.deb` installer
 - `1.0h`: create `.exe` installer on windows
 - `1.5h`: try to figure out why my built takes more space
@@ -46,8 +45,8 @@ Create an Appimage and a windows exe for the latest (0.88) release of `Java Geom
 	- figure out why the `help` so flaky
 	- create final `AppImage`
 
-
-**Other:**
+---
+# Notes:
 
 Commands:
 - `wget -O appimagetool https://github.com/AppImage/appimagetool/releases/latest/download/appimagetool-x86_64.AppImage`

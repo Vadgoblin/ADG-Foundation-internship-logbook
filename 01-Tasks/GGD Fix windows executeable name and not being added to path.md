@@ -5,11 +5,11 @@ actual_hours: 7.4
 start_date: 2026-10-26
 end_date: 2026-10-27
 ---
-Description:
-The executable's name is `desktop.bay` but should be `Geogebra-Discovery.bat`.
+**Description**:
+The executable's name is `desktop.bat` but should be `Geogebra-Discovery.bat`.
 There should be an option to add `Geogebra-Discovery.bat` to the `PATH` env var.
 
-Result:
+**Result**:
 - https://github.com/kovzol/geogebra/pull/31
 
 # Execution log:

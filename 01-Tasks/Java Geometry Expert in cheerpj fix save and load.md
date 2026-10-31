@@ -23,25 +23,20 @@ Update: 'open url' is also broken - needs to fixed as well
 **Links**
 - https://cheerpj.com/docs/overview
 
-**Execution log:**
-
-`2026.09.02.`
+# Execution log:
+### 2026.09.02.
 - `2.0h` - Forking jgex repo, creating a repo for 'web' part of the program, creating helper scripts to run build `jgex`, copy the `.jar` to the target location and separate script for running a local web server. Attempted to run open a host native file chooser from java(web) but failed. I should read the docs.
-
-`2026.09.03.`
+### 2026.09.03.
 - `1.0h` - Read `cheerpj` docs.
 - `1.0h` - Implement communication between java and javascript
-
-`2026.09.04.`
+### 2026.09.04.
 - `3.5h` - Implement load, import, start working on save.
 - `2.5h` - Implement save, and some of the 'save as'
 - `1.0h` - Deploy on vps, configure ssl
 - `1.0h` - Continue working on `export to ps`, but getting strange exception `java.lang.ClassCastException` on web but not on native java
-
-`2026.09.05.`
+### 2026.09.05.
 - `3.5h` - Implement rest of the 'save as x', fix 'open url'
-
-`2026.09.07.`
+# 2026.09.07.
 - `2.3h`:
 	- add `html`, `js` and `css` files to jgex repo
 	- create `buildWeb` gradle task

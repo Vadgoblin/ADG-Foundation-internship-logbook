@@ -24,7 +24,7 @@ Result:
 	- fix names in github workflows
 	- test if removing `-Pgdraft` results in any significant change
 	- test gh workflow's artifact
-- `0.5h:`  fix files in web build's zip are in the root
+- `0.5h`:  fix files in web build's zip are in the root
 - `0.3`: 
 	- re-run gh workflow because i disable wrong one due to accidentally swapped names 
 	- fix name swap

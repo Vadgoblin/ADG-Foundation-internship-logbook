@@ -6,7 +6,7 @@ start_date: 2026-10-21
 end_date: 2026-10-24
 ---
 **Description:**
-Create a github wokflow to autimatically create mac build on release.
+Create a github wokflow to automatically create mac build on release.
 
 Result:
 - https://github.com/ADG-Foundation/gclc/pull/11
@@ -16,7 +16,7 @@ Result:
 - `0.4h`: create script (building tooks hours - building timed out)
 #### 2026.10.22.
 - `0.7h`: somehow get build to work
-- `1.5h`:  fix `gclc-gui` crashes on start
+- `1.5h`: fix `gclc-gui` crashes on start
 - `1.2h`:
 	- add safety check so macos build script can only run on mac
 	- refactor build script

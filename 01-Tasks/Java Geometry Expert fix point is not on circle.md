@@ -21,12 +21,12 @@ Point selector sometimes has (incorrect) offset.
 - https://github.com/kovzol/Java-Geometry-Expert/pull/54
 - https://github.com/kovzol/Java-Geometry-Expert/pull/53
 
-**Execution log:**
-`2026.09.08.`
+# Execution log:
+### 2026.09.08.
 - `2.0h`: source of the problem seems to be casting double to integer instead of rounding as well as using graphics library that only supports integer coordinates
-`2026.09.10.`
+### 2026.09.10.
 - `2.0h`: upgrade used graphics api to newer one that supports real number coordinates
 - `4.0h`: Little refactoring
-`2026.09.11.`
+### 2026.09.11.
 - `2.5h`: fix line 0.5px shifted down, start working on fixin point selector offset
 - `0.7h`: fix point selector strange offset
