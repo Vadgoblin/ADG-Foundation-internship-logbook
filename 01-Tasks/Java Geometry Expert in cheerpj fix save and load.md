@@ -36,7 +36,7 @@ Update: 'open url' is also broken - needs to fixed as well
 - `1.0h` - Continue working on `export to ps`, but getting strange exception `java.lang.ClassCastException` on web but not on native java
 ### 2026.09.05.
 - `3.5h` - Implement rest of the 'save as x', fix 'open url'
-# 2026.09.07.
+### 2026.09.07.
 - `2.3h`:
 	- add `html`, `js` and `css` files to jgex repo
 	- create `buildWeb` gradle task
