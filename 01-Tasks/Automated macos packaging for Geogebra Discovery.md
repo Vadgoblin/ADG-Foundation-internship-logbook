@@ -3,7 +3,7 @@ type: "[[Task]]"
 expected_hours: 4
 actual_hours: 12.4
 start_date: 2026-10-27
-end_date:
+end_date: 2026-10-31
 ---
 **Result**:
 - https://github.com/kovzol/geogebra/pull/34
