@@ -18,7 +18,7 @@ SORT date(start_date) ASC, date(end_date) ASC
 | [Wayland support for Geogebra discovery on flatpack](01-Tasks/Wayland%20support%20for%20Geogebra%20discovery%20on%20flatpack.md)                             | 8        | 13.7   | ✅         |
 | [Nix package for Java Geometry Expert](01-Tasks/Nix%20package%20for%20Java%20Geometry%20Expert.md)                                                           | 32       | 35.7   | ❌         |
 | [GCLC flathub](01-Tasks/GCLC%20flathub.md)                                                                                                                   | 8        | 32.7   | ✅         |
-| [Refactor Geogebra Prover](01-Tasks/Refactor%20Geogebra%20Prover.md)                                                                                         | 16       | 16.5   | ❌         |
+| [Refactor GeoGebra Prover](01-Tasks/Refactor%20GeoGebra%20Prover.md)                                                                                         | 16       | 16.5   | ❌         |
 | [Patches for GCLC upstream](01-Tasks/Patches%20for%20GCLC%20upstream.md)                                                                                     | 2        | 2      | ✅         |
 | [flake.nix for Java Geomtery Expert](01-Tasks/flake.nix%20for%20Java%20Geomtery%20Expert.md)                                                                 | 4        | 3.5    | ✅         |
 | [Java Geometry Expert in cheerpj fix save and load](01-Tasks/Java%20Geometry%20Expert%20in%20cheerpj%20fix%20save%20and%20load.md)                           | 42       | 17.8   | ✅         |
@@ -34,14 +34,15 @@ SORT date(start_date) ASC, date(end_date) ASC
 | [Add "distributed by the ADG Foundation" notice in gclc](01-Tasks/Add%20"distributed%20by%20the%20ADG%20Foundation"%20notice%20in%20gclc.md)                 | 0.6      | 0.4    | ✅         |
 | [Web build for Geogebra Discovery](01-Tasks/Web%20build%20for%20Geogebra%20Discovery.md)                                                                     | 4        | 3.6    | ✅         |
 | [Mac build for gclc](01-Tasks/Mac%20build%20for%20gclc.md)                                                                                                   | 4        | 4.8    | ✅         |
-| [JGEX fix build](01-Tasks/JGEX%20fix%20build.md)                                                                                                             | 1        | 0.6    | ✅         |
 | [GGD fix release workflow fails if version starts with 'v'](01-Tasks/GGD%20fix%20release%20workflow%20fails%20if%20version%20starts%20with%20'v'.md)         | 0.4      | 0.6    | ✅         |
+| [JGEX fix build](01-Tasks/JGEX%20fix%20build.md)                                                                                                             | 1        | 0.6    | ✅         |
 | [Mac build for JGEX](01-Tasks/Mac%20build%20for%20JGEX.md)                                                                                                   | 4        | 0.7    | ✅         |
 | [Update github links in ADG Foundation's JGEX repo](01-Tasks/Update%20github%20links%20in%20ADG%20Foundation's%20JGEX%20repo.md)                             | 2        | 0.4    | ✅         |
 | [Create a proof of concept for JGEX help](01-Tasks/Create%20a%20proof%20of%20concept%20for%20JGEX%20help.md)                                                 | 2        | 2.3    | ✅         |
 | [GGD Fix windows executeable name and not being added to path](01-Tasks/GGD%20Fix%20windows%20executeable%20name%20and%20not%20being%20added%20to%20path.md) | 4        | 7.4    | ✅         |
 | [Automated macos packaging for Geogebra Discovery](01-Tasks/Automated%20macos%20packaging%20for%20Geogebra%20Discovery.md)                                   | 4        | \-     | ❌         |
 | [Small improvements for GGD](01-Tasks/Small%20improvements%20for%20GGD.md)                                                                                   | 6        | 3.4    | ✅         |
+| [Small Fixes and Improvements](01-Tasks/Small%20Fixes%20and%20Improvements.md)                                                                               | 2.5      | \-     | ❌         |
 
 <!-- SerializedQuery END -->
 

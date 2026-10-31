@@ -31,14 +31,17 @@ end_date:
 	- play around with the website
 	- figure out how to make backup
 #### 2026.10.14.
-- `0.3h` - look for payment option and write a ticket about it
+- `0.3h`: look for payment option and write a ticket about it
 #### 2026.10.29.
-- `2.5h` - Deploy HotCRP on prod server with [Zoltán Kovács](Zoltán%20Kovács)
-- `3.3h` - start working on documentation
-- `2.2h` - finish documentation, follow steps on my vps to validate them
-
+- `2.5h`: Deploy HotCRP on prod server with [Zoltán Kovács](Zoltán%20Kovács)
+- `3.3h`: start working on documentation
+- `2.2h`: finish documentation, follow steps on my vps to validate them
 #### 2026.10.30.
-- `0.6` - Proofreading the documentation. 
+- `0.6`: Proofreading the documentation. 
+#### 2026.10.31.
+- `0.3`: 
+	- Replace api keys with placeholders
+	- convert md to html
 
 ---
 php-addr-error:
