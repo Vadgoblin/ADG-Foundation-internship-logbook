@@ -10,7 +10,6 @@ end_date:
 - [x] Install Nix
 - [x] Create nix package
 
-
 **Links:**
 - https://nix.dev/manual/nix/2.28/
 - https://nixos.org/guides/nix-pills/
@@ -20,55 +19,50 @@ end_date:
 - https://github.com/NixOS/nixpkgs/blob/master/pkgs/README.md
 - https://github.com/NixOS/nixpkgs/blob/master/pkgs/by-name/README.md
 
-Execution log:
+# Execution log:
 ### 2026.06.24. 
-- **0.7h** Read docs
+- `0.7h`: Read docs
 ### 2026.06.25. 
-- **4.2h** Read docs
-- **0.2h** Install nix
-
+- `4.2h`: Read docs
+- `0.2h`: Install nix
 ### 2026.06.26. 
-- **2.0h** Read docs
-- **1.0h** Read docs
-
+- `2.0h`: Read docs
+- `1.0h`: Read docs
 ### 2026.07.01
-- **3.2h** Read manual
-
+- `3.2h`: Read manual
 ### 2026.07.02
-- **5.2h** Read nix pills
+- `5.2h`: Read nix pills
 ### 2026.07.03
-- **4.0h** Read nix pills and `CONTRIBUTING.md` of `nixpkgs`
-
+- `4.0h`: Read nix pills and `CONTRIBUTING.md` of `nixpkgs`
 ### 2026.07.21.
-- **4.0h** Read `CODE_OF_CONDUCT`, `maintainers/README.md`,`pkgs/README.md`, `pkgs/by-name/README.md`
+- `4.0h`: Read `CODE_OF_CONDUCT`, `maintainers/README.md`,`pkgs/README.md`, `pkgs/by-name/README.md`
 ### 2026.07.22.
-- **2.5h**  [Writing simple (hello world) nix packages](https://github.com/Vadgoblin/learn_nix_java_packaging/). 
-- **2.5h** Working on nix packaging `jgex`
+- `2.5h`:  [Writing simple (hello world) nix packages](https://github.com/Vadgoblin/learn_nix_java_packaging/). 
+- `2.5h:` Working on nix packaging `jgex`
 	- Preferences and other pop up windows are empty
-
 ### 2026.07.23.
-- **0.6h**:
+- `0.6h`:
 	- Installing nix on laptop
 	- testing build on laptopn
 	- finding solution/workaround to the 'empty window' problem 
-- **2.0h:**
+- `2.0h`:
 	- populate `meta` attributes
 	- generating and installing `.desktop` file and installing icons
 	- installing nixos to to test package
 		- vm is slow
-- **2.0h:
+- `2.0h`:
 	- making sure my nix config complies with `nixpkgs` rules
 	- `git fetch` hangs
 	- overthinking minor details
-
 ### 2026.07.24.
-- **1.6h**:
-	- installin nix on raspberry pi
+- `1.6h`:
+	- installing nix on raspberry pi
 	- testing package on rapsberry pi (arm64)
 	- [creating PR](https://github.com/NixOS/nixpkgs/pull/545159), final double checking things 
 	- troubleshooting github check pipeline faliure
 ### Waiting for review/merge.
 
+---
 
 ## Notes
 - `nix-build -A <pkg_name>` at the root of a local `nixpkgs` repo
