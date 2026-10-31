@@ -50,9 +50,10 @@ end_date: 2026-06-26
 	- give up
 
 ---
+# Notes:
 
 [3d error stack trace](03-Docs/Geogebra%20discovery%203d%20error%20stack%20trace.md)
-## Notes:
+
 ### Flatpak bundle size:
 old manifest: 107.7
 new with stripped jbrsdlk (missing deps): 100.1

@@ -11,22 +11,21 @@ end_date: 2026-08-11
 - [x] Submit
 - [x] Fix issues
 
-
-**Useful links:**
-- https://docs.flathub.org/docs/for-app-authors/submission
-- https://docs.flathub.org/docs/for-app-authors/metainfo-guidelines
-- https://doc.qt.io/qt-6/qstylehints.html
-
 **Results:**
 - https://github.com/ADG-Foundation/gclc/releases/tag/v2026.08
 - https://github.com/flathub/flathub/pull/9611
+
+**Links:**
+- https://docs.flathub.org/docs/for-app-authors/submission
+- https://docs.flathub.org/docs/for-app-authors/metainfo-guidelines
+- https://doc.qt.io/qt-6/qstylehints.html
 
 **Useful commands:**
 - `yamllint io.github.ADG_Foundation.gclc.yaml`
 - `nix-shell -p desktop-file-utils appstream-glib --run "desktop-file-validate io.github.ADG_Foundation.gclc.desktop && appstream-util validate io.github.ADG_Foundation.gclc.metainfo.xml"`
 
 # Execution log:
-#### 2026.08.01
+### 2026.08.01
 - **0.5h** - Install and try `gclc` 
 - **1.5h** - Create a minimal, working flatpak manifest
 - **1.0h** - Trying to fix dark theme

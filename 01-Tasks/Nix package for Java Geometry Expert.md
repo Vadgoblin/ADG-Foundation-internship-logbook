@@ -10,6 +10,9 @@ end_date:
 - [x] Install Nix
 - [x] Create nix package
 
+**Results:**
+- https://github.com/NixOS/nixpkgs/pull/545159
+
 **Links:**
 - https://nix.dev/manual/nix/2.28/
 - https://nixos.org/guides/nix-pills/
@@ -43,7 +46,7 @@ end_date:
 ### 2026.07.23.
 - `0.6h`:
 	- Installing nix on laptop
-	- testing build on laptopn
+	- testing build on laptop
 	- finding solution/workaround to the 'empty window' problem 
 - `2.0h`:
 	- populate `meta` attributes
@@ -63,8 +66,7 @@ end_date:
 ### Waiting for review/merge.
 
 ---
-
-## Notes
+# Notes
 - `nix-build -A <pkg_name>` at the root of a local `nixpkgs` repo
 - validate `.desktop` files with `nix-shell -p desktop-file-utils --run "desktop-file-validate result/share/applications/*.desktop"`
 - format nix file `nixfmt pkgs/by-name/yo/your-package-name/package.nix`
